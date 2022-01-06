@@ -7,6 +7,14 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
+      - name: List Github variables
+        run: |
+          echo "Github commit sha:"
+          echo $GITHUB_SHA
+          echo "Github repository (username/repository)"
+          echo $GITHUB_REPOSITORY
+          echo "Github workspace"
+          echo $GITHUB_WORKSPACE
       - name: List Files Pre Checkout
         shell: bash
         run: |
