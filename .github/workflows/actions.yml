@@ -16,6 +16,8 @@ jobs:
           echo $GITHUB_REPOSITORY
           echo "Github workspace"
           echo $GITHUB_WORKSPACE
+          echo "Github token, blurred if printed"
+          echo "${{ github.token }}"
       - name: List Files Pre Checkout
         shell: bash
         run: |
