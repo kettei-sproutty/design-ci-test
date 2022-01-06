@@ -1,0 +1,11 @@
+{
+  "name": "design-ci-test",
+  "license": "MIT",
+  "author": "Alessio Marchi <alessiomarchi.dev@gmail.com>",
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "@types/prettier": "^2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}
